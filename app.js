@@ -28,7 +28,7 @@ async function addPlat() {
     await plat.save();
     console.log('Nouveau plat ajouté !');
 }
-await addPlat();
+// await addPlat();
 
 async function addIngredients() {
     const i1 = new Ingredient({ name: 'Tomate', allergen: false });
@@ -39,4 +39,4 @@ async function addIngredients() {
     await i2.save();
     await i3.save();
 }
-await addIngredients();
+// await addIngredients();
